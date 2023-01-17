@@ -8,11 +8,23 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import AdbIcon from '@mui/icons-material/Adb';
+import NavigationDrawer from './Drawer';
 
 const menuItems = ['Home', 'About Us', 'Incubation', 'Apply', 'Team', 'Mentors', 'Learning', 'Focus Area', 'Tenders', 'Products', 'Contacts'];
 
 function Navbar() {
+  const [state, setState] = React.useState(false);
 
+	const toggleDrawer = (open) => event => {
+		if (
+			event.type === "keydown" &&
+			(event.key === "Tab" || event.key === "Shift")
+		) {
+			return;
+		}
+
+		setState(open);
+	};
   return (
     <AppBar position="static">
       <Container maxWidth="xl">
@@ -36,7 +48,7 @@ function Navbar() {
             LOGO
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }} onClick={toggleDrawer(!state)}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -78,6 +90,7 @@ function Navbar() {
           </Box>
         </Toolbar>
       </Container>
+      <NavigationDrawer state={state} toggleDrawer={toggleDrawer} menuItems={menuItems} />
     </AppBar>
   );
 }
