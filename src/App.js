@@ -1,18 +1,16 @@
 import './App.css';
-import AboutAtal from './components/AboutAtal';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import InvestorsCount from './components/InvestorsCount';
-import Navbar from './components/Navbar';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Suspense } from 'react';
+import AppRouter from './routes';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Header />
-      <AboutAtal />
-      <InvestorsCount />
-      <Footer />
+      <Suspense fallback={""}>
+          <Router>
+            <AppRouter />
+          </Router>
+        </Suspense>
     </div>
   );
 }
