@@ -16,7 +16,7 @@ const AboutAtal = () => {
 
       </div>
       <div className="right">
-         <img src="https://res.cloudinary.com/arpr/image/upload/v1540359700/adult-affection-baby-755028.jpg"/>
+         <img alt="temp" src="https://res.cloudinary.com/arpr/image/upload/v1540359700/adult-affection-baby-755028.jpg"/>
       </div>
       <div className="clear"></div>
    </div>

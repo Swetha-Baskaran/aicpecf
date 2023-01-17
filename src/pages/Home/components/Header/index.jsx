@@ -13,7 +13,7 @@ const Header = () => {
 						</div>
 					</div>
 					<div className='images'>
-						<img src='ImagePath/ImageName.jpg' />
+						<img alt="" src='' />
 					</div>
 				</div>
 
@@ -26,7 +26,7 @@ const Header = () => {
 						</div>
 					</div>
 					<div className='images'>
-						<img src='ImagePath/ImageName.jpg' />
+						<img alt="" src='' />
 					</div>
 				</div>
 
@@ -39,7 +39,7 @@ const Header = () => {
 						</div>
 					</div>
 					<div className='images'>
-						<img src='ImagePath/ImageName.jpg' />
+						<img alt="" src='' />
 					</div>
 				</div>
 
@@ -52,7 +52,7 @@ const Header = () => {
 						</div>
 					</div>
 					<div className='images'>
-						<img src='ImagePath/ImageName.jpg' />
+						<img alt="" src='' />
 					</div>
 				</div>
 			</div>
