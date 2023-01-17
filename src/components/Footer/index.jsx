@@ -10,19 +10,19 @@ const Footer = () => {
 						<span className='logo_name'>CodingLab</span>
 					</div>
 					<div className='media-icons'>
-						<a href='#'>
+						<a href='/about'>
 							<i className='fab fa-facebook-f'></i>
 						</a>
-						<a href='#'>
+						<a href='/about'>
 							<i className='fab fa-twitter'></i>
 						</a>
-						<a href='#'>
+						<a href='/about'>
 							<i className='fab fa-instagram'></i>
 						</a>
-						<a href='#'>
+						<a href='/about'>
 							<i className='fab fa-linkedin-in'></i>
 						</a>
-						<a href='#'>
+						<a href='/about'>
 							<i className='fab fa-youtube'></i>
 						</a>
 					</div>
@@ -31,61 +31,61 @@ const Footer = () => {
 					<ul className='box'>
 						<li className='link_name'>Company</li>
 						<li>
-							<a href='#'>Home</a>
+							<a href='/about'>Home</a>
 						</li>
 						<li>
-							<a href='#'>Contact us</a>
+							<a href='/about'>Contact us</a>
 						</li>
 						<li>
-							<a href='#'>About us</a>
+							<a href='/about'>About us</a>
 						</li>
 						<li>
-							<a href='#'>Get started</a>
+							<a href='/about'>Get started</a>
 						</li>
 					</ul>
 					<ul className='box'>
 						<li className='link_name'>Services</li>
 						<li>
-							<a href='#'>App design</a>
+							<a href='/about'>App design</a>
 						</li>
 						<li>
-							<a href='#'>Web design</a>
+							<a href='/about'>Web design</a>
 						</li>
 						<li>
-							<a href='#'>Logo design</a>
+							<a href='/about'>Logo design</a>
 						</li>
 						<li>
-							<a href='#'>Banner design</a>
+							<a href='/about'>Banner design</a>
 						</li>
 					</ul>
 					<ul className='box'>
 						<li className='link_name'>Account</li>
 						<li>
-							<a href='#'>Profile</a>
+							<a href='/about'>Profile</a>
 						</li>
 						<li>
-							<a href='#'>My account</a>
+							<a href='/about'>My account</a>
 						</li>
 						<li>
-							<a href='#'>Prefrences</a>
+							<a href='/about'>Prefrences</a>
 						</li>
 						<li>
-							<a href='#'>Purchase</a>
+							<a href='/about'>Purchase</a>
 						</li>
 					</ul>
 					<ul className='box'>
 						<li className='link_name'>Courses</li>
 						<li>
-							<a href='#'>HTML & CSS</a>
+							<a href='/about'>HTML & CSS</a>
 						</li>
 						<li>
-							<a href='#'>JavaScript</a>
+							<a href='/about'>JavaScript</a>
 						</li>
 						<li>
-							<a href='#'>Photography</a>
+							<a href='/about'>Photography</a>
 						</li>
 						<li>
-							<a href='#'>Photoshop</a>
+							<a href='/about'>Photoshop</a>
 						</li>
 					</ul>
 					<ul className='box input-box'>
@@ -102,11 +102,11 @@ const Footer = () => {
 			<div className='bottom-details'>
 				<div className='bottom_text'>
 					<span className='copyright_text'>
-						Copyright © 2021 <a href='#'>CodingLab.</a>All rights reserved
+						Copyright © 2021 <a href='/about'>CodingLab.</a>All rights reserved
 					</span>
 					<span className='policy_terms'>
-						<a href='#'>Privacy policy</a>
-						<a href='#'>Terms & condition</a>
+						<a href='/about'>Privacy policy</a>
+						<a href='/about'>Terms & condition</a>
 					</span>
 				</div>
 			</div>
